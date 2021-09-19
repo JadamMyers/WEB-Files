@@ -1,25 +1,30 @@
 
 /*This is a comment*/
 
-h1{
-    font-size: 45px;
+  h1{
+    font-size: 60px;
+    font-family: "Courier New";
+    color: #000000;
+    border: 4mm ridge #ff897e;
+  }
+  h2{
+    color: #000000;
+  }
+  h3{
+    color: black;
+  }
+  h4{
+    color: black;
   }
   body{
-    font-family: helvetica;
-    background-color: black;
-    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(#ff897e, 40%, #d3d3d3);
+    /* background: linear-gradient(to bottom left, #d3d3d3 50%, #ff897e 50%); */
+    /* background-color: #d3d3d3; */
+    color: #30998F;
   }
-  img {
-    width: 25vw;
-    margin: 20px;
+  #Bottom{
+    border: solid;
   }
-  form{
-    margin-left: 20px;
-    font-size: 3vw;
-  }
-  #top h1{
-    color:rgb(255,200,255);
-    border: solid .5px white;
-    border-radius: 10px;
-  }
+
   
