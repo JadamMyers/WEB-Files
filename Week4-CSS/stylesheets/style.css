@@ -24,7 +24,12 @@
     color: #30998F;
   }
   #Week2{
+    font-weight: 700;
+    
     border: solid;
+  }
+  h5{
+    color: #d3d3d3
   }
 
   
