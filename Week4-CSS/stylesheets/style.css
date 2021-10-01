@@ -3,33 +3,55 @@
 
   h1{
     font-size: 60px;
-    font-family: "Courier New";
-    color: #000000;
+    font-family: "Comfortaa";
+    color: #30998F;
     border: 4mm ridge #ff897e;
   }
   h2{
-    color: #000000;
+    color: #30998F;
   }
   h3{
-    color: black;
+    color: #30998F;
   }
   h4{
-    color: black;
+    color: #30998F;
   }
   body{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Comfortaa';
     background: linear-gradient(#ff897e, 40%, #d3d3d3);
     /* background: linear-gradient(to bottom left, #d3d3d3 50%, #ff897e 50%); */
     /* background-color: #d3d3d3; */
-    color: #30998F;
+    color: #000000;
   }
-  #Week2{
+  /* #week2{
     font-weight: 700;
-    
+    background-color: #000000
     border: solid;
-  }
-  h5{
+  } */
+  /* h5{
     color: #d3d3d3
+  } */
+  .aboutMe{
+    padding: 25px;
   }
 
-  
+  a:link {
+    color: #000000;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: #000000 ;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #ff897e;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: #d3d3d3;
+    background-color: transparent;
+    text-decoration: underline;
+  }
