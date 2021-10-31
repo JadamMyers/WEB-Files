@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Compliment Machine</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=EB+Garamond|Open+Sans"
+</head>
+<body>
+<section id="compsection">
+<h1 id="ctext">Welcome the compliment machine, click the button to get complemented.</h1>
+<h1 id="mtext">I can be mean too.</h1>
+<button id="newcomp">Compliment</button>
+<button2 id="bemean">Mean Comment</button>
+</section>
+<section id="flex">
+  <div class="flexitem">
+    <h2>one</h2>
+  </div>
+
+  <div class="flexitem2">
+    <h2>two</h2>
+  </div>
+
+  <div class="flexitem">
+    <h2>three</h2>
+  </div>
+</section>
+
+<script>
+  const comp = ["You thought haha"];
+  let compcount = 0;
+
+  document.getElementById("newcomp").addEventListener("click", buttonClicked);
+
+  function buttonClicked(){
+    console.log(comp[compcount]);
+    document.getElementById("ctext").innerHTML = comp[compcount];
+    if(compcount>=0){
+      compcount = 0;
+    }else{
+    compcount++;
+  }
+  }
+
+</script>
+
+<script>
+    const mean = ["I love you"];
+    let meancount = 0;
+  
+    document.getElementById("bemean").addEventListener("click", buttonClicked);
+  
+    function buttonClicked(){
+      console.log(mean[meancount]);
+      document.getElementById("mtext").innerHTML = mean[meancount];
+      if(meancount>=0){
+        meancount = 0;
+      }else{
+        meancount++;
+    }
+    }
+  
+  </script>
+
+</body>
+
+</html>

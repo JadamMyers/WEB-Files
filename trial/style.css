@@ -1,0 +1,172 @@
+
+/* tabs boxes */
+#tabs{ 
+    display: flex;
+    margin: 25vh 10vw 0 10vw;
+}
+
+/* list of activites box */
+#activites{
+  display:flex;
+  margin: 0vh 10vw 0 10vw;
+  padding-top: 80px;
+  border: 1px solid #aaa;
+  border-top: none;
+  border-radius: 10px;
+}
+  
+.day{
+  flex-grow: 1;
+  width: 20vw;
+  border: 1px solid #aaa;
+  background-color:#EAECEF;
+  border-radius: 10px;
+  font-family: "Italiana";
+}
+  
+   .menu{ /*#image,*/
+    flex-grow: 1;
+    width:auto;
+    max-width: 50%;
+    font-family: "Montserrat Alternates";
+  }
+  
+  h2{
+    margin-top: 28px;
+    padding-bottom: 0;
+    font-size: 1.8em;
+    margin-left: 30px;
+  }
+  
+  #Mondaymenu,#Tuesdaymenu, #Wednesdaymenu, #Thursdaymenu, #Fridaymenu, #Saturdaymenu{
+    display: none;
+  }
+  
+  .active{
+    background-color: white;
+    border-bottom:none;
+  }
+
+  h1{
+    font-size: 60px;
+    font-family: "Poiret One";
+    color: #5d887e;
+    text-align: center;
+    
+}
+body{
+    background-image: linear-gradient(to bottom right, #e4a95b, #eef1c4);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+
+}
+
+
+  /* img{
+    width: 80%;
+    max-height: 80%;
+    object-fit: cover;
+    display:block;
+    margin: auto;
+  
+    /* object-position: 20% 10%; */
+
+
+/* 
+
+
+.buttons .button{
+    background-color: #5d887e; /* Green 
+    border: 1px solid #0f5c4a;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    width: 150px;
+    display: block;
+}
+.buttons .button:not(:last-child) {
+    border-bottom: none; /* Prevent double borders 
+}
+  
+.buttons .button:hover {
+    background-color: #3e8e41;
+}
+
+
+/*This is a comment
+
+.hero-image {
+    background-image: url("green.jpg");
+    background-color: #cccccc;
+    height: 600px;
+    background-position: top;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    position: relative;
+  }
+  
+  .hero-text {
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+
+  h2{
+    color: #30998F;
+  }
+  h3{
+    color: #30998F;
+  }
+  h4{
+    color: #30998F;
+  }
+  body{
+    font-family: 'Forum';
+    border: 4mm ridge #ff897e;
+    /* background-image: url("green.jpg") ; */
+    /* background: linear-gradient(#ff897e, 40%, #d3d3d3); */
+    /* background: linear-gradient(to bottom left, #d3d3d3 50%, #ff897e 50%); */
+    /* background-color: #d3d3d3; 
+    color: #000000;
+  }
+  /* #week2{
+    font-weight: 700;
+    background-color: #000000
+    border: solid;
+  } */
+  /* h5{
+    color: #d3d3d3
+  } 
+  .aboutMe{
+    padding: 25px;
+  }
+
+  a:link {
+    color: #000000;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: #000000 ;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #ff897e;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: #d3d3d3;
+    background-color: transparent;
+    text-decoration: underline;
+  } 
+  */

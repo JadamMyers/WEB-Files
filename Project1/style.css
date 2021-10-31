@@ -1,0 +1,88 @@
+
+/* Video Background */
+#video{
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+#Title{
+  font-size: 4.5vw;
+  font-family: "Poiret One";
+  color:#5d887e;
+  text-align: center;
+  margin-bottom: -50px;
+}
+
+#Quote{
+    font-family: "Italiana";
+    color: #0f5c4a;
+    text-align: center;
+    font-size: 1.6vw;
+    margin-bottom: 80px;
+}
+
+/* Main Box */
+#Default, #Sunday, #Monday, #Tuesday, #Wednesday, #Thursday, #Friday, #Saturday{
+  background-image: linear-gradient(to bottom right, #e4a95b, white);
+  border-radius: 50px; 
+}
+
+/* Headers */
+h2{
+  color: #0f5c4a;
+  font-family: "Poiret One";
+  margin-top: auto;
+  font-size: 4vw ;
+}
+
+/* Tab text */
+.activities{
+  font-family: "Spartan";
+  font-size: 1.4vw ;
+  color: #5d887e;
+  display: none;
+  padding: 46px;
+}
+
+/* Center align header and checkboxes */
+.nonList{
+  text-align: center;
+}
+
+/* Seperate checkboxes */
+#lotCheckS, #litCheckS, #lotCheckM, #litCheckM, #lotCheckT, #litCheckT,
+#lotCheckW, #litCheckW, #lotCheckTh, #litCheckTh, #lotCheckF, #litCheckF, #lotCheckSat, #litCheckSat{
+  margin-right: 20px;
+}
+
+/* align bulletpoint list */
+.lists{
+  display: table;
+  margin: 0 auto;
+}
+
+/* buttons */
+.butt{
+  background-color: #0f5c4a;
+  color: #28d1aa;
+  float: left;
+  border: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  margin: 0px 0px 100% 0px;
+  font-size: 1.3vw;
+  width: 12.5%; /* fit 8 buttons */
+  font-family: "Italiana";
+  border-radius: 10px;
+}
+
+/* button hover */
+.butt:hover{
+  background-color: #5d887e;
+}
+
