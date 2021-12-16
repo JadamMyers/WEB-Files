@@ -1,0 +1,120 @@
+@font-face {
+    font-family: ticketing;
+    src: url("fonts/ticketing.regular.otf");
+}
+
+@font-face {
+    font-family: shrimp;
+    src: url("fonts/SHRIMP.ttf");
+}
+
+
+#map {
+    height: 35%;
+}
+      
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #eef1c4;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.detach_strip {
+    background-image: url("resources/detach_strip.png");
+    border-radius: 25px;
+    height: 400px;
+    width: 80px;
+    box-shadow: 5px 10px;
+    border-style: solid;
+}
+
+.boarding_pass {
+    display: flex;
+    flex-direction: column;
+    background-image: url("resources/new_passport_bg.png");
+    border-radius: 15px;
+    height: 400px;
+    width: 720px;
+    box-shadow: 5px 10px;
+}
+
+.boarding_pass_right {
+    display: flex;
+    flex-direction: column;
+    background-image: url("resources/new_passport_bg_right.png");
+    border-radius: 15px;
+    height: 400px;
+    width: 276px;
+    box-shadow: 5px 10px;
+}
+
+.container-horizontal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.pass_items_label {
+    font-family: "shrimp";
+    text-transform: uppercase;
+    font-size: 15px;
+    padding-left: 40px;
+    color: #606c38;
+}
+
+.pass_items {
+    font-family: "ticketing";
+    text-transform: uppercase;
+    font-size: 40px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+}
+
+.location {
+    font-family: "ticketing";
+    text-transform: uppercase;
+    font-size: 60px;
+    justify-self: center;
+    align-self: center;
+    padding-top: 30px;
+}
+
+.passport_heading {
+    font-family: "shrimp";
+    font-size: 45px;
+    padding-top: 35px;
+    padding-left: 65px;
+    padding-bottom: 15px;
+    color: #283618;
+}
+
+.passport_right_heading {
+    font-family: "shrimp";
+    font-size: 30px;
+    padding-top: 35px;
+    justify-content: center;
+    padding-left: 50px;
+    color: #283618;
+}
+
+.btn {
+    margin:0 auto;
+    display:block;
+    height: 100px;
+    width: 200px;
+    border-radius: 25px;
+    border: 6px solid #181817;
+    font-size: 30px;
+    background-color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+}

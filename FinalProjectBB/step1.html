@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>Step 1 Page</title>
+    <link rel="stylesheet" href="boarding_pass.css">
+    <script src="step1.js"></script>
+  </head>
+
+<body>
+
+    <div class="container">
+      <h1 class="new_header">Enter travel information</h1>
+          <form action = step2.html method="POST">
+              <label for="p_name">PASSENGER NAME</label>
+              <input type="text" id="p_name" name="p_name">
+
+              <label for="d_date">DEPARTURE DATE</label>
+              <input type="text" id="d_date" name="d_date">
+
+              <label for="n_days"># DAYS</label>
+              <input type="text" id="n_days" name="n_days">
+
+              <label for="d_city">DEPARTURE CITY</label>
+              <input type="text" id="d_city" name="d_city">
+
+          </form>
+      <button class="begin" onclick="handleSubmit(); window.location.href='step2.html';">SUBMIT</button>
+    </div>
+
+</body>
+</html>

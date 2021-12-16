@@ -1,0 +1,63 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: #eef1c4;
+}
+
+@font-face {
+    font-family: ticketing;
+    src: url('/fonts/ticketing.regular.otf');
+}
+
+@font-face {
+    font-family: shrimp;
+    src: url('/fonts/SHRIMP.ttf')
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+
+.begin {
+    margin:0 auto;
+    display:block;
+    height: 100px;
+    width: 200px;
+    border-radius: 25px;
+    border: 6px solid #181817;
+    font-size: 30px;
+    background-color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.new_header {
+    display: flex;
+    font-size: 65px;
+    font-family: 'Courier New', Courier, monospace;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+
+label {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 25px;
+    padding-left: 20px;
+}   

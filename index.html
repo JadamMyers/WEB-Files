@@ -1,263 +1,49 @@
-<!-- Areeb Rohill WEB-2200 -->
+<!-- Areeb Rohilla WEB-2200 -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <title>Project 1</title>
-    <link rel="stylesheet" href="Project1/style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poiret+One%7CRighteous%7CItaliana%7CCaudex%7CSpartan%7CMontserrat+Alternates">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BlackBox Travel</title>
+  <link rel="stylesheet" href="Final_BlackBox/main.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Megrim">
 </head>
 
 <body>
-    <!-- Video Clip -->
-    <video autoplay muted loop id="video">
-        <source src="Project1/assets/beach.mp4" type="video/mp4">
-    </video>
-
     <!-- Title -->
-    <section id="Title">
-        <h1>Self-Care Menu</h1>
-    </section>
+    <!-- only inline styling used, because css was 
+      going to be very inconvent for this werid title coloring -->
+    <h1>Bl
+      <p style="color:#ff2d55">a</p>
+      ckB
+      <p style="color:#5856d6">o</p>
+      x Tr
+      <p style="color:#ff9500">a</p>
+      v
+      <p style="color:#4cd964">e</p>
+      l
+    </h1>
 
     <!-- Quote -->
     <section id="Quote">
-        <p class="quote">"Can't water the world, if you don't water yourself"</p>
+    <h2>"Life is like a box of chocolates"</h2>
     </section>
 
-<!-- Seperate Tabs -->
-<section id="tabs">
+    <br>
+    <br>
+    <br>
 
-    <!-- Default Tab -->
-    <div id="Default" class="activities">
-
-    <section class="nonList">
-        <h2>RECHARGE</h2>
-        <p>Take Care of Yo Self</p> 
-    </section>
-
-    </div>
-
-    <!-- Sunday Tab -->
-    <section id="Sunday" class="activities">
-    
-    <section class="nonList"> 
-        <h2>How Much Time?</h2>
-
-        <!-- Labeles and checkboxes -->
-        <label for="lotCheckS">LOTS</label>
-        <input type="checkbox" id="lotCheckS" onclick="chooseTime('S', 1)">
-        
-        <label for="litCheckS">little</label>
-        <input type="checkbox" id="litCheckS" onclick="chooseTime('S', 2)">
-    </section>
-
-    <section class=lists>
-        <!-- A lot of time list -->
-        <ul id="lotListS" style="display:none">
-            <li>meal prep</li>
-            <li>plan week (work/school/workouts)</li>
-            <li>workout with a friend</li>
-        </ul>
-        <!-- Little time list -->
-        <ul id="litListS" style="display:none">
-            <li>journal</li>
-            <li>water plants </li>
-            <li>clean up pics/files</li>
-        </ul>
+    <!-- Instructions -->
+    <section id="Instr">
+    <p id="msg">Instructions:</p>
+    <ul>
+      <li class="list">Minimal planning</li>
+      <li class="list">Pin the globe</li>
+      <li class="list">Recieve itinerary</l√i>
+    </ul>
     </section>
     
-    </section>
-
-    <!-- Monday Tab -->
-    <section id="Monday" class="activities">
-
-        <section class="nonList">
-            <h2>How Much Time?</h2>
-
-            <label for="lotCheckM">LOTS</label>
-            <input type="checkbox" id="lotCheckM" onclick="chooseTime('M', 1)">
-            
-            <label for="litCheckM">little</label>
-            <input type="checkbox" id="litCheckM" onclick="chooseTime('M', 2)">
-        </section>
-
-        <section class=lists>
-            <ul id="lotListM" style="display:none">
-                <li>lift</li>
-                <li>podcast and take notes</li>
-
-            </ul>
-
-            <ul id="litListM" style="display:none">
-                <li>get some early sunlight</li>
-                <li>grab a tea, booch, smoothie</li>
-                <li>meditate</li>
-            </ul>
-        </section>
+    <button class="begin" onclick="window.location.href='Final_BlackBox/step1.html'">BEGIN</button>
     
-    </section>   
-
-    <!-- Tuesday Tab -->
-    <section id="Tuesday" class="activities">
-
-        <section class="nonList">
-            <h2>How Much Time?</h2>
-
-            <label for="lotCheckT">LOTS</label>
-            <input type="checkbox" id="lotCheckT" onclick="chooseTime('T', 1)">
-            
-            <label for="litCheckT">little</label>
-            <input type="checkbox" id="litCheckT" onclick="chooseTime('T', 2)">
-        </section>
-
-        <section class=lists>
-            <ul id="lotListT" style="display:none">
-                <li>sauna workout</li>
-                <li>shit-talk in fantasy football groupchats</li>
-                <li>order a gift for someone</li>
-            </ul>
-
-            <ul id="litListT" style="display:none">
-                <li>quick pushups/pullups/calf raises</li>
-                <li>fresh sheets and laundry</li>
-                <li>go on a walk BREATHE</li>
-            </ul>
-        </section>
-    
-    </section>
-
-    <!-- Wednesday Tab -->
-    <section id="Wednesday" class="activities">
-
-        <section class="nonList">
-            <h2>How Much Time?</h2>
-
-            <label for="lotCheckW">LOTS</label>
-            <input type="checkbox" id="lotCheckW" onclick="chooseTime('W', 1)">
-            
-            <label for="litCheckW">little</label>
-            <input type="checkbox" id="litCheckW" onclick="chooseTime('W', 2)">
-        </section>
-
-        <section class=lists>
-            <ul id="lotListW" style="display:none">
-                <li>spin class</li>
-                <li>hit balls @ driving range</li>
-                <li>movie with a friend</li>
-            </ul>
-
-            <ul id="litListW" style="display:none">
-                <li>clean room</li>
-                <li>facetime family or friend</li>
-                <li>get to bed early</li>
-            </ul>
-        </section>
-    
-    </section>
-
-    <!-- Thursday Tab -->
-    <section id="Thursday" class="activities">
-
-        <section class="nonList">
-            <h2>How Much Time?</h2>
-
-            <label for="lotCheckTh">LOTS</label>
-            <input type="checkbox" id="lotCheckTh" onclick="chooseTime('Th', 1)">
-            
-            <label for="litCheckTh">little</label>
-            <input type="checkbox" id="litCheckTh" onclick="chooseTime('Th', 2)">
-        </section>
-
-        <section class=lists>
-            <ul id="lotListTh" style="display:none">
-                <li>yoga class</li>
-                <li>play basketball</li>
-                <li>get dinner with friends</li>
-            </ul>
-
-            <ul id="litListTh" style="display:none">
-                <li>draw a design</li>
-                <li>make weekend plans</li>
-                <li>text old friend</li>
-                <li>skincare</li>
-            </ul>
-        </section>
-    
-    </section>
-
-    <!-- Friday Tab -->
-    <section id="Friday" class="activities">
-
-        <section class="nonList">
-            <h2>How Much Time?</h2>
-
-            <label for="lotCheckF">LOTS</label>
-            <input type="checkbox" id="lotCheckF" onclick="chooseTime('F', 1)">
-            
-            <label for="litCheckF">little</label>
-            <input type="checkbox" id="litCheckF" onclick="chooseTime('F', 2)">
-        </section>
-
-        <section class=lists>
-            <ul id="lotListF" style="display:none">
-                <li>reply to old texts</li>
-                <li>go on a run</li>
-                <li>clean kitchen</li>
-            </ul>
-
-            <ul id="litListF" style="display:none">
-                <li>ingest hella vegetables</li>
-                <li>meditate</li>
-                <li>grab a tea, booch, smoothie</li>
-            </ul>
-        </section> 
-
-    </section>
-    
-    <!-- Saturday Tab -->
-    <section id="Saturday" class="activities">
-
-        <section class="nonList">
-            <h2>How Much Time?</h2>
-
-            <label for="lotCheckSat">LOTS</label>
-            <input type="checkbox" id="lotCheckSat" onclick="chooseTime('Sat', 1)">
-            
-            <label for="litCheckSat">little</label>
-            <input type="checkbox" id="litCheckSat" onclick="chooseTime('Sat', 2)">
-        </section>
-
-        <section class=lists>
-            <ul id="lotListSat" style="display:none">
-                <li>golf</li>
-                <li>groceries</li>
-                <li>feeling special—pedicure?</li>
-            </ul>
-
-            <ul id="litListSat" style="display:none">
-                <li>perform an album in the shower</li>
-                <li>facetime family or friend</li>
-                <li>draw</li>
-            </ul>
-        </section>
-    
-    </section>
-
-</section>
-
-<!-- All buttons: 
-- on click call js function to open up clicked button
-- match button to background color
--->
-<button class="butt" onclick="openTab('Default', this, '#F2D5B0')" id="default">Areeb</button>
-<button class="butt" onclick="openTab('Sunday', this, '#F4DAB9')">Sunday</button>
-<button class="butt" onclick="openTab('Monday', this, '#F6E1C7')">Monday</button>
-<button class="butt" onclick="openTab('Tuesday', this, '#F8E7D3')">Tuesday</button>
-<button class="butt" onclick="openTab('Wednesday', this, '#F9EDDD')">Wednesday</button>
-<button class="butt" onclick="openTab('Thursday', this, '#FAEEDE')">Thursday</button>
-<button class="butt" onclick="openTab('Friday', this, '#FCF5EB')">Friday</button>
-<button class="butt" onclick="openTab('Saturday', this, '#FDF9F4')">Saturday</button>
-
-<script src="Project1/index.js"></script>
 </body>
 </html>
-

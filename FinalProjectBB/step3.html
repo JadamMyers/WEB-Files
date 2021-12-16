@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Map Itinerary</title>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+  <link rel="stylesheet" href="step3.css">
+  <script src="step2.js"></script>
+  <script src="step3.js"></script>
+</head>
+
+<body onload="fillPassport()">
+    <div id="map"></div>
+
+    <div class="container">
+        <div class="container-horizontal">
+            <div class="detach_strip"></div>
+            <div class="boarding_pass">
+                <label class="passport_heading">TRAVEL INFORMATION</label>
+                <label class="pass_items_label">PASSENGER NAME</label>
+                <span class="pass_items" id="passenger"></span>
+                <label class="pass_items_label">DEPARTURE DATE</label>
+                <span class="pass_items" id="departure"></span>
+                <label class="pass_items_label"># DAYS</label>
+                <span class="pass_items" id="days"></span>
+                <label class="pass_items_label">DEPARTURE CITY</label>
+                <span class="pass_items" id="city"></span>
+            </div>
+            <div class="boarding_pass_right">
+                <label class="passport_right_heading">DESTINATION</label>
+                <label id="location" class="location">Location</label>
+            </div>
+        </div>
+        
+        <button class="btn" onclick="window.location.href='../index.html'">HOME</button>
+    </div>
+
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA49HFKLWIuo3fGFA2RnFv1g4RjPf4Qkr0&callback=initMap&v=weekly"
+      async
+    ></script>
+
+</body>
+</html>
